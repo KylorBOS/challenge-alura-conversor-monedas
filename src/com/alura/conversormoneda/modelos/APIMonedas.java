@@ -1,4 +1,5 @@
 package com.alura.conversormoneda.modelos;
 
-public record APIMonedas() {
+public record APIMonedas(String base_code) {
+
 }
